@@ -1,2 +1,32 @@
-h1.section-title.text-center
-  | SERVIÇOS
+div.section-title.text-center
+  h1.title
+    | SERVIÇOS
+  p.subtitle
+    | Veja como nossa equipe pode te ajudar!
+
+.container.servicos-wrapper
+  .row
+    .col-sm-4.text-center
+      .servico-box
+        .icon
+          = fa_stacked_icon "html5", base: "circle", class: "fa-5x"
+        .title
+          h4 WEB
+        .description
+          p Desenvolvimento de sites e sistemas gerenciadores de conteúdo (CMS).
+    .col-sm-4.text-center
+      .servico-box
+        .icon
+          = fa_stacked_icon "gears", base: "circle", class: "fa-5x"
+        .title
+          h4 Sistemas
+        .description
+          p Desenvolvimento de sistemas WEB com foco em automação de processos, lógica de negócio e aplicações complexas.
+    .col-sm-4.text-center
+      .servico-box
+        .icon
+          = fa_stacked_icon "book", base: "circle", class: "fa-5x"
+        .title
+          h4 Treinamentos
+        .description
+          p Cursos e treinamentos de tecnologias de desenvolvimento WEB e ferramentas computacionais.

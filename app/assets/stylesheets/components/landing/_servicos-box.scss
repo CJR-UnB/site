@@ -2,3 +2,22 @@
   @include site-section;
   background-color: $color-cyan-900;
 }
+
+.servico-box {
+  .icon {
+    .fa-stack-1x { color: $color-cyan-900; }
+    .fa-stack-2x { color: $color-blue-grey-50; }
+  }
+
+  .title {
+    padding-top: 1em;
+  }
+
+  .description {
+    padding-top: 2em;
+  }
+}
+
+.servicos-wrapper {
+  padding-top: 3em;
+}
