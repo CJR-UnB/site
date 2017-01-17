@@ -11,13 +11,6 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
-@mixin background-image-cover {
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-}
-
 @mixin site-section {
   padding: 4em 2em 4em 2em;
 }

@@ -4,6 +4,7 @@
 
 @import "bootstrap";
 @import "font-awesome";
+@import "overlay";
 
 // Ambience
 @import "ambience/colors";
@@ -18,10 +19,10 @@
 @import "base/unclassed";
 
 // Components
-@import "components/landing/brand-image";
 @import "components/landing/cjr-box";
 @import "components/landing/contato-box";
 @import "components/landing/membros-box";
+@import "components/landing/navigation-bar";
 @import "components/landing/portfolio-box";
 @import "components/landing/section-title";
 @import "components/landing/servicos-box";

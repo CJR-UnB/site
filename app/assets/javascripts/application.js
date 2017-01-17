@@ -14,5 +14,9 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require parallax.min
+//= require modernizr.custom
+//= require snap.svg-min
+//= require classie
+//= require overlay 
 //= require turbolinks
 //= require_tree .
