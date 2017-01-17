@@ -9,6 +9,7 @@
 @import "ambience/fonts";
 
 // Base
+@import "base/bootstrap-overrides";
 @import "base/normalize";
 @import "base/reusables";
 @import "base/structure";
@@ -16,12 +17,11 @@
 @import "base/unclassed";
 
 // Components
-@import "components/bootstrap-overrides";
-@import "components/brand-image";
-@import "components/cjr-box";
-@import "components/contato-box";
-@import "components/membros-box";
-@import "components/portfolio-box";
-@import "components/section-title";
-@import "components/servicos-box";
-@import "components/sobre-box";
+@import "components/landing/brand-image";
+@import "components/landing/cjr-box";
+@import "components/landing/contato-box";
+@import "components/landing/membros-box";
+@import "components/landing/portfolio-box";
+@import "components/landing/section-title";
+@import "components/landing/servicos-box";
+@import "components/landing/sobre-box";

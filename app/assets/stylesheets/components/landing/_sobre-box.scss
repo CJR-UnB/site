@@ -1,4 +1,4 @@
 .sobre-box {
+  @include site-section;
   background-color: $color-indigo-700;
-  padding: 1em 0 4em 0;
 }

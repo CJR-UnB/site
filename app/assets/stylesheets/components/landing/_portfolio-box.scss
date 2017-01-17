@@ -1,3 +1,4 @@
 .portfolio-box {
+  @include site-section;
   background-color: $color-amber-600;
 }

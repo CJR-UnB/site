@@ -18,6 +18,10 @@
           background-size: cover;
 }
 
+@mixin site-section {
+  padding: 4em 2em 4em 2em;
+}
+
 @mixin clearfix {
   &::before,
   &::after {
