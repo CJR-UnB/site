@@ -3,15 +3,12 @@
  */
 
 @import "bootstrap";
-@import "font-awesome";
-@import "overlay";
 
 // Ambience
 @import "ambience/colors";
 @import "ambience/fonts";
 
 // Base
-@import "base/bootstrap-overrides";
 @import "base/normalize";
 @import "base/reusables";
 @import "base/structure";
@@ -27,3 +24,7 @@
 @import "components/landing/section-title";
 @import "components/landing/servicos-box";
 @import "components/landing/sobre-box";
+
+// Extra
+@import "font-awesome";
+@import "overlay-menu";
