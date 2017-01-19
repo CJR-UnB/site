@@ -1,4 +1,41 @@
 .portfolio-box {
   @include site-section;
-  background-color: $color-amber-600;
+  background-color: $color-blue-900;
+}
+
+.portfolio-list {
+  padding-top: 1em;
+}
+
+.portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+
+  > .link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  > .link > .caption {
+    background-color: $color-blue-500;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+
+    &:hover { opacity: 0.8; }
+  }
+
+  > .link > .caption > .content {
+    @include v-align;
+    @include c-align;
+    position: absolute;
+    color: white;
+  }
+
 }

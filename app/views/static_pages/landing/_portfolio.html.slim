@@ -1,2 +1,12 @@
 h1.section-title.text-center
   | PORTFOLIO
+
+.container
+  .row.portfolio-list
+    - 10.times do ||
+      .col-sm-3.portfolio-item
+        a.link[data-toggle='modal' href='']
+          .caption
+            .content
+              = fa_icon 'search-plus', class: 'fa-3x'
+          img.img-responsive[src='http://www.w3schools.com/css/img_fjords.jpg']
