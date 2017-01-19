@@ -8,14 +8,15 @@
 }
 
 .portfolio-item {
+  padding-bottom: 1em;
   margin: 0 0 15px;
   right: 0;
 
   > .link {
     display: block;
-    position: relative;
     max-width: 400px;
     margin: 0 auto;
+    position: relative;
   }
 
   > .link > .caption {
@@ -38,4 +39,80 @@
     color: white;
   }
 
+}
+
+.portfolio-modal {
+  padding-right: 0 !important;
+
+  .modal-header {
+    background-color: $color-blue-900;
+    padding: 3em 10em 3em 10em;
+  }
+
+  .modal-body {
+    padding-top: 3em;
+  }
+
+  .title, .close {
+    font-size: $font-size-kilo;
+    color: $color-white;
+  }
+
+  .title {
+    font-family: $font-family-headings;
+    padding-left: 25px;
+  }
+
+  .close {
+    padding-top: 0.35em;
+    padding-right: 0.6em;
+    opacity: 1;
+    color: $color-white;
+
+    &:hover { opacity: 0.5; }
+  }
+
+  .description {
+    color: $color-grey-900;
+    padding: 1.5em 0;
+  }
+
+  > .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    text-align: center;
+    padding-bottom: 2em;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .modal-header {
+      padding: 1.5em;
+    }
+
+    .title, .close {
+      font-size: $font-size-hecto;
+    }
+  }
+
+  > .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+  }
+
+  > .modal-content img {
+    margin-bottom: 30px;
+  }
+
+  > .modal-content > .item-details {
+    margin: 30px 0;
+  }
+
+  > .modal-backdrop {
+    opacity: 0;
+    display: none;
+  }
 }

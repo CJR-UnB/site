@@ -1,0 +1,20 @@
+.portfolio-modal.modal.fade aria-hidden="true" id="portfolioModalSGA" role="dialog" tabindex="-1" 
+  .modal-content
+    .modal-header
+      .close[data-dismiss='modal']
+        span &times;
+      .title.text-left SGA - CJR
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            ul.rslides
+              li = image_tag 'sga/sga.png'
+              li = image_tag 'sga/sga2.png'
+              li = image_tag 'sga/sga3.png'
+            .description
+              p Desenvolvimento de sistema WEB para gerenciamento de atas da Empresa.
+              p Finalizado em julho de 2016.
+            button.btn.btn-default data-dismiss="modal" type="button" 
+              | Fechar&nbsp;
+              i.fa.fa-times

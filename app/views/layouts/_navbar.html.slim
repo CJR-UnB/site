@@ -1,6 +1,17 @@
 nav.navigation-bar
   .container
     = image_tag 'logo-cjr.png', class: 'logo'
-    .pull-right
+    .pull-right.visible-xs
       label for="op"
         = fa_icon 'bars', class: 'fa-2x bars trigger-overlay'
+    ul.list.hidden-xs.pull-right
+      li
+        a[onclick="sobreLinkClick()"] Sobre
+      li
+        a[onclick="servicosLinkClick()"] Serviços
+      li
+        a[onclick="portfolioLinkClick()"] Portfolio
+      li
+        a[onclick="membrosLinkClick()"] Membros
+      li
+        a[onclick="contatoLinkClick()"] Contato

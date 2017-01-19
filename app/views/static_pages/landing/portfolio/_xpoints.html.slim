@@ -1,0 +1,20 @@
+.portfolio-modal.modal.fade aria-hidden="true" id="portfolioModalXpoints" role="dialog" tabindex="-1" 
+  .modal-content
+    .modal-header
+      .close[data-dismiss='modal']
+        span &times;
+      .title.text-left Xpoints
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            ul.rslides
+              li = image_tag 'xpoints/xpoints.png'
+              li = image_tag 'xpoints/xpoints2.png'
+              li = image_tag 'xpoints/xpoints3.png'
+            .description
+              p Desenvolvimento de sistema WEB de trocas de pontos de fidelidade.
+              p Finalizado em dezembro de 2016.
+            button.btn.btn-default data-dismiss="modal" type="button" 
+              | Fechar&nbsp;
+              i.fa.fa-times

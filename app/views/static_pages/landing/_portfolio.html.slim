@@ -3,10 +3,25 @@ h1.section-title.text-center
 
 .container
   .row.portfolio-list
-    - 10.times do ||
-      .col-sm-3.portfolio-item
-        a.link[data-toggle='modal' href='']
-          .caption
-            .content
-              = fa_icon 'search-plus', class: 'fa-3x'
-          img.img-responsive[src='http://www.w3schools.com/css/img_fjords.jpg']
+    .col-sm-4.portfolio-item
+      a.link[data-toggle='modal' href='#portfolioModalLamparina']
+        .caption
+          .content
+            = fa_icon 'search-plus', class: 'fa-3x'
+        = image_tag 'lamparina/lamparina.png', class: 'img-responsive'
+    .col-sm-4.portfolio-item
+      a.link[data-toggle='modal' href='#portfolioModalXpoints']
+        .caption
+          .content
+            = fa_icon 'search-plus', class: 'fa-3x'
+        = image_tag 'xpoints/xpoints.png', class: 'img-responsive'
+    .col-sm-4.portfolio-item
+      a.link[data-toggle='modal' href='#portfolioModalSGA']
+        .caption
+          .content
+            = fa_icon 'search-plus', class: 'fa-3x'
+        = image_tag 'sga/sga.png', class: 'img-responsive'
+
+= render 'static_pages/landing/portfolio/lamparina'
+= render 'static_pages/landing/portfolio/xpoints'
+= render 'static_pages/landing/portfolio/sga'

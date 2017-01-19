@@ -3,30 +3,46 @@
 //= require bootstrap-sprockets
 //= require parallax.min
 //= require animatescroll
+//= require slides.min
 //= require turbolinks
 //= require_tree .
 
+function uncheckOp() {
+  $("#op").prop("checked", false);
+}
+
 function sobreLinkClick() {
   $('.sobre-box').animatescroll();
-  $("#op").prop("checked", false);
+  uncheckOp();
 }
 
 function servicosLinkClick() {
   $('.servicos-box').animatescroll();
-  $("#op").prop("checked", false);
+  uncheckOp();
 }
 
 function portfolioLinkClick() {
   $('.portfolio-box').animatescroll();
-  $("#op").prop("checked", false);
+  uncheckOp();
 }
 
 function membrosLinkClick() {
   $('.membros-box').animatescroll();
-  $("#op").prop("checked", false);
+  uncheckOp();
 }
 
 function contatoLinkClick() {
   $('.contato-box').animatescroll();
-  $("#op").prop("checked", false);
+  uncheckOp();
 }
+
+$(document).ready(function() {
+  $('.rslides').responsiveSlides({
+    auto: false,
+    pager: true,
+    nav: true,
+    speed: 500,
+    maxwidth: 1200,
+    namespace: "transparent-btns"
+  });
+});
