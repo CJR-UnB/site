@@ -2,18 +2,72 @@
   @include site-section;
   background-color: $color-amber-500;
   color: $color-grey-900;
+  
+  .texto {
+    max-width: 400px;
+  }
 
   .texto, .email {
     padding-top: 2em;
     font-size: $font-size-deca;
     line-height: 1.2;
+    font-size: 1.3em;
   }
 
   .email {
-    font-size: 1.3em;
     a { 
       color: $color-grey-900;
       opacity: 0.8;
     }
+  }
+
+  .btn-form { 
+    color: $color-white; 
+    background-color: $color-cyan-800; 
+    border-color: $color-cyan-800;
+    border-radius: 0;
+    margin-top: 2em; 
+    padding: 1.3em;
+    white-space: normal;
+  } 
+   
+  .btn-form:hover, 
+  .btn-form:focus, 
+  .btn-form:active, 
+  .btn-form.active, 
+  .open .dropdown-toggle.btn-form { 
+    color: $color-white; 
+    background-color: $color-cyan-900; 
+    border-color: $color-cyan-800; 
+  } 
+   
+  .btn-form:active, 
+  .btn-form.active, 
+  .open .dropdown-toggle.btn-form { 
+    background-image: none; 
+  } 
+   
+  .btn-form.disabled, 
+  .btn-form[disabled], 
+  fieldset[disabled] .btn-form, 
+  .btn-form.disabled:hover, 
+  .btn-form[disabled]:hover, 
+  fieldset[disabled] .btn-form:hover, 
+  .btn-form.disabled:focus, 
+  .btn-form[disabled]:focus, 
+  fieldset[disabled] .btn-form:focus, 
+  .btn-form.disabled:active, 
+  .btn-form[disabled]:active, 
+  fieldset[disabled] .btn-form:active, 
+  .btn-form.disabled.active, 
+  .btn-form[disabled].active, 
+  fieldset[disabled] .btn-form.active { 
+    background-color: $color-cyan-800; 
+    border-color: $color-cyan-800; 
+  } 
+   
+  .btn-form .badge { 
+    color: $color-cyan-800; 
+    background-color: $color-white; 
   }
 }
