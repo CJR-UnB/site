@@ -1,6 +1,7 @@
 .contato-box {
   @include site-section;
-  background-color: $color-blue-900;
+  background-color: $color-amber-500;
+  color: $color-grey-900;
 
   .texto, .email {
     padding-top: 2em;
@@ -10,6 +11,9 @@
 
   .email {
     font-size: 1.3em;
-    a { color: $color-white; }
+    a { 
+      color: $color-grey-900;
+      opacity: 0.8;
+    }
   }
 }

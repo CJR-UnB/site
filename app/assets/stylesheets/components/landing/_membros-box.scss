@@ -1,7 +1,6 @@
 .membros-box {
   @include site-section;
-  background-color: $color-amber-500;
-  color: $color-grey-900;
+  background-color: $color-blue-900;
 }
 
 .membros-list {
@@ -24,6 +23,7 @@
     p.text-muted {
       font-size: 0.75em;
       line-height: 1.2;
+      color: $color-white;
     }
   }
 
