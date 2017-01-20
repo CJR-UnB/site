@@ -1,4 +1,43 @@
 .membros-box {
   @include site-section;
-  background-color: $color-amber-800;
+  background-color: $color-amber-500;
+  color: $color-grey-900;
+}
+
+.membros-list {
+  padding-top: 1em;
+}
+
+.membro-item {
+  padding-bottom: 2em;
+
+  .foto {
+    width: 90%;
+    height: auto;
+    margin-bottom: 1em;
+    border: 4px solid $color-white;
+  }
+
+  .nome {
+    margin-bottom: 0;
+
+    p.text-muted {
+      font-size: 0.75em;
+      line-height: 1.2;
+    }
+  }
+
+  .cargo {
+    font-size: $font-size-centi;
+    color: $color-cyan-900;
+  }
+
+  .social {
+    text-align: center;
+    padding: 0.3em 0;
+    font-size: 1.35em;
+
+    .fa-stack-1x { color: $color-cyan-900; }
+    .fa-stack-2x { color: $color-blue-grey-50; }
+  }
 }
