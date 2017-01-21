@@ -1,0 +1,8 @@
+.thumbnail { 
+  background-color: $color-cyan-800;
+  border: 0;
+
+  img, a > img {
+    height: 50px;
+  }
+}

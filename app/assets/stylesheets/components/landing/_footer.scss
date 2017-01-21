@@ -1,9 +1,23 @@
 footer {
-  padding-top: 1.5em;
-  background-color: $color-cyan-900;
-  min-height: 150px;
+  padding-top: 2em;
+  text-align: center;
+  background-color: $color-cyan-800;
+}
 
-  .info {
-    padding-top: 1.5em;
+.parceiros-list {
+  padding-top: 2em;
+}
+
+.enterprise-info {
+  margin-top: 1.75em;
+  padding: 1em 0;
+  text-align: left;
+  background-color: $color-cyan-900;
+
+  // Margin fix
+  p.pull-right { margin: 0; }
+
+  a {
+    color: $color-white;
   }
 }

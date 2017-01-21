@@ -1,6 +1,7 @@
 nav.navigation-bar
   .container
-    = image_tag 'logo-cjr.png', class: 'logo'
+    a[onclick="$('.cjr-box').animatescroll();"]
+      = image_tag 'logo-cjr.png', class: 'logo'
     .pull-right.visible-xs
       label for="op"
         = fa_icon 'bars', class: 'fa-2x bars trigger-overlay'

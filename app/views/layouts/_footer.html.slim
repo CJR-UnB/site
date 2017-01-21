@@ -1,10 +1,28 @@
 .container
   .row
-    .col-sm-5.info
-      p
-        | Empresa Júnior de Computação - CJR
-        br
-        | Prédio CiC/EST - Sala AT 12/11, Universidade de Brasília
-    .col-sm-7.parceiros
-      p
-        | Parceiros
+    h3
+      | NOSSOS PARCEIROS
+    .parceiros-list
+      .col-sm-2
+        a.thumbnail[href='http://www.lamparinadesign.com.br' target='_blank']
+          = image_tag 'parceiros/logo_lamparina.png'
+      .col-sm-3
+        a.thumbnail[href='http://www.cic.unb.br' target='_blank']
+          = image_tag 'parceiros/logo_cic.png'
+      .col-sm-4
+        a.thumbnail[href='http://www.cdt.unb.br' target='_blank']
+          = image_tag 'parceiros/logo_cdt.png'
+      .col-sm-3
+        a.thumbnail[href='http://www.concentro.org.br' target='_blank']
+          = image_tag 'parceiros/logo_concentro.png'
+
+.enterprise-info
+  .container
+    p.address
+    | Empresa Júnior de Computação - CJR. Prédio CIC/EST Sala AT 12/11 - UnB.
+    p.pull-right
+      a[href='http://facebook.com/unb.cjr' target='_blank']
+        = fa_icon 'facebook-square', class: 'fa-2x'
+      | &nbsp;&nbsp;&nbsp;
+      a[href='http://github.com/unbcjr' target='_blank']
+        = fa_icon 'github-square', class: 'fa-2x'
