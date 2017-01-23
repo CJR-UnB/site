@@ -1,7 +1,6 @@
 .portfolio-box {
   @include site-section;
-  background-color: $color-amber-500;
-  color: $color-grey-900;
+  background-color: $color-blue-600;
 }
 
 .portfolio-list {
@@ -21,7 +20,7 @@
   }
 
   > .link > .caption {
-    background-color: $color-amber-900;
+    background-color: $color-blue-900;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -46,7 +45,7 @@
   padding: 0 !important;
 
   .modal-header {
-    background-color: $color-amber-500;
+    background-color: $color-blue-600;
     padding: 3em 10em 3em 10em;
   }
 
@@ -56,7 +55,7 @@
 
   .title, .close {
     font-size: $font-size-kilo;
-    color: $color-grey-900;
+    color: $color-white;
   }
 
   .title {
