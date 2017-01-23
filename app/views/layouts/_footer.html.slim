@@ -1,6 +1,6 @@
 .container
   .row
-    h3
+    h4
       | NOSSOS PARCEIROS
     .parceiros-list
       .col-sm-2
@@ -18,11 +18,14 @@
 
 .enterprise-info
   .container
-    p.address
-    | Empresa Júnior de Computação - CJR. Prédio CIC/EST Sala AT 12/11 - UnB.
-    p.pull-right
-      a[href='http://facebook.com/unb.cjr' target='_blank']
-        = fa_icon 'facebook-square', class: 'fa-2x'
-      | &nbsp;&nbsp;&nbsp;
-      a[href='http://github.com/unbcjr' target='_blank']
-        = fa_icon 'github-square', class: 'fa-2x'
+    .row
+      .col-sm-10.col-xs-12
+        p.address
+          | Empresa Júnior de Computação - CJR. Prédio CIC/EST Sala AT 12/11 - UnB.
+      .col-sm-2.col-xs-12
+        p.pull-right
+          a[href='http://facebook.com/unb.cjr' target='_blank']
+            = fa_icon 'facebook-square', class: 'fa-2x'
+          | &nbsp;&nbsp;&nbsp;
+          a[href='http://github.com/unbcjr' target='_blank']
+            = fa_icon 'github-square', class: 'fa-2x'

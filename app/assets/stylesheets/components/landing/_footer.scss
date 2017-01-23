@@ -10,8 +10,9 @@ footer {
 
 .enterprise-info {
   margin-top: 1.75em;
-  padding: 1em 0;
+  padding: 1em 0 0.5em 0;
   text-align: left;
+  font-size: $font-size-deci;
   background-color: $color-cyan-900;
 
   // Margin fix
