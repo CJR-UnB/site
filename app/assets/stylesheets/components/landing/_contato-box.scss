@@ -70,4 +70,25 @@
     color: $color-cyan-800; 
     background-color: $color-white; 
   }
+
+  .mapa {
+    padding-left: 7em;
+  }
+
+  @media screen and (max-width: 991px) {
+    .mapa {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1150px) {
+    .mapa {
+      padding-left: 5em;
+
+      iframe {
+        width: 380px;
+      }
+    }
+  }
+
 }
