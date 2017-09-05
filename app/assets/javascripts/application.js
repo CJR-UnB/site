@@ -11,6 +11,10 @@ function uncheckOp() {
   $("#op").prop("checked", false);
 }
 
+function inscricaoPs(){
+  alert('As Inscrições Foram Finalizadas Neste Semestre!!!');
+}
+
 function sobreLinkClick() {
   $('.sobre-box').animatescroll();
   uncheckOp();
@@ -45,8 +49,8 @@ $(document).ready(function() {
     maxwidth: 1200,
     namespace: "transparent-btns"
   });
-  
-  $('[data-toggle="tooltip"]').tooltip(); 
+
+  $('[data-toggle="tooltip"]').tooltip();
 });
 
 $(function(){
