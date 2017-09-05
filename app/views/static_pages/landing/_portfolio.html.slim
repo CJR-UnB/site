@@ -27,8 +27,22 @@ h1.section-title.text-center
           .content
             = fa_icon 'search-plus', class: 'fa-3x'
         = image_tag 'cognin/cognin.png', class: 'img-responsive'
+    .col-sm-4.portfolio-item
+      a.link[data-toggle='modal' href='#portfolioModalUbiPlaces']
+        .caption
+          .content
+            = fa_icon 'search-plus', class: 'fa-3x'
+        = image_tag 'UbiPlaces/foto1.png', class: 'img-responsive'
+    .col-sm-4.portfolio-item
+      a.link[data-toggle='modal' href='#portfolioModalPraxis']
+        .caption
+          .content
+            = fa_icon 'search-plus', class: 'fa-3x'
+        = image_tag 'Praxis/foto1.png', class: 'img-responsive'
 
 = render 'static_pages/landing/portfolio/lamparina'
 = render 'static_pages/landing/portfolio/xpoints'
 = render 'static_pages/landing/portfolio/sga'
 = render 'static_pages/landing/portfolio/cognin'
+= render 'static_pages/landing/portfolio/ubiplaces'
+= render 'static_pages/landing/portfolio/praxis'

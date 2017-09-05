@@ -1,0 +1,20 @@
+.portfolio-modal.modal.fade aria-hidden="true" id="portfolioModalPraxis" role="dialog" tabindex="-1"
+  .modal-content
+    .modal-header
+      .close[data-dismiss='modal']
+        span &times;
+      .title.text-left Praxis
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            ul.rslides
+              li = image_tag 'Praxis/foto1.png'
+              li = image_tag 'Praxis/foto2.png'
+              li = image_tag 'Praxis/foto3.png'
+            .description
+              p Desenvolvimento do site para a empresa júnior de Psicologia.
+              p Finalizado em abril de 2017 ( ? ).
+            button.btn.btn-default data-dismiss="modal" type="button"
+              | Fechar&nbsp;
+              i.fa.fa-times

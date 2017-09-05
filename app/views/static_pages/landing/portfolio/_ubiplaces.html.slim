@@ -1,0 +1,20 @@
+.portfolio-modal.modal.fade aria-hidden="true" id="portfolioModalUbiPlaces" role="dialog" tabindex="-1"
+  .modal-content
+    .modal-header
+      .close[data-dismiss='modal']
+        span &times;
+      .title.text-left UbiPlaces
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            ul.rslides
+              li = image_tag 'UbiPlaces/foto1.png'
+              li = image_tag 'UbiPlaces/foto2.png'
+              li = image_tag 'UbiPlaces/foto3.png'
+            .description
+              p Desenvolvimento do frontend de uma plataforma para venda de imóveis.
+              p Finalizado em fevereiro de 2017.
+            button.btn.btn-default data-dismiss="modal" type="button"
+              | Fechar&nbsp;
+              i.fa.fa-times
